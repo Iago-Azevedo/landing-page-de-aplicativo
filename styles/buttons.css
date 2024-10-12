@@ -7,14 +7,15 @@
 	align-items: center;
 	justify-content: center;
 	width: fit-content;
-
+  
 	border-radius: .5rem;
 	font: var(--fw-md) var(--fs-base) / 1.5rem var(--ff-sans);
-
+  
 	cursor: pointer;
-
+  
   background: var(--btn-bg-color);
 	color: var(--btn-color);
+ 
 }
 
 .btn:hover {
@@ -24,6 +25,10 @@
     var(--brand-color-primary) 100%
   );
   --btn-color: var(--surface-color);
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--btn-color);
 }
 
 .btn-sm {
